@@ -1,0 +1,289 @@
+body {
+    margin: 0px;
+    background-color: dimgray;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 5px;
+}
+
+.imgRom {
+    transition-duration: 4s;
+    transform: rotate(360deg);
+    width: 50px;
+    height: 50px;
+}
+
+.MainAction {
+    box-shadow: 0 0 7px;
+    border-radius: 10px;
+    margin: auto;
+    width: 800px;
+    height: 490px;
+    background-color: gray;
+}
+
+.MainMenu {
+    position: relative;
+    border-radius: 10px;
+    float: right;
+    width: 125px;
+    height: 80px;
+    background-color: gray;
+    top: -490px;
+    right: 180px;
+}
+
+a {
+    outline: none;
+}
+
+.MainMenu ul {
+    padding-left: 0px;
+    top: -10px;
+}
+
+.MainMenu li:hover {
+    cursor: pointer;
+}
+
+.MainMenu li {
+    margin-bottom: 10px;
+    left: 10px;
+    list-style-type: none;
+    position: relative;
+    font-family: Menlo;
+    font-size: 20px;
+    color: ghostwhite;
+}
+
+
+
+
+.Title {
+    position: relative;
+    top: -55px;
+    text-align: center;
+    margin: auto;
+    font-family: Menlo;
+    font-size: 45px;
+    color: ghostwhite;
+}
+
+li {
+    font-family: Menlo;
+    font-size: 20px;
+    list-style-type: none;
+    color: #ffcc66;
+}
+
+.SpisokFilm {
+    border-radius: 10px;
+    /*border: 2px solid black;*/
+    margin: auto;
+    width: 780px;
+    height: 400px;
+    padding-left: 0px;
+}
+
+.SpisokFilm li {
+    padding-top: 5px;
+    padding-left: 10px;
+    background-color: dimgray;
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Spisok {
+    position: relative;
+    top: 20px;
+    overflow-y: scroll;
+    border-radius: 10px;
+    margin: auto;
+    /*border: 2px solid black;*/
+    width: 780px;
+    height: 400px;
+}
+
+.TitleFilm {
+    width: 375px;
+    height: 400px;
+    float: left;
+}
+
+.TitleGenre {
+    width: 375px;
+    height: 400px;
+    float: right;
+}
+
+ul {
+    position: relative;
+    top: 20px;
+}
+
+.TitleFilm ul {
+    width: 335px;
+    text-align: left;
+}
+
+.TitleFilm li {
+    height: 35px;
+    width: 100%;
+    background-color: dimgray;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.NameSpisok, .NameGenre{
+    color: ghostwhite;
+    top: 10px;
+    font-family: Menlo;
+    font-size: 20px;
+    position: relative;
+    left: 180px;
+}
+
+.NameGenre {
+    left: 400px;
+}
+
+.Del {
+    position: relative;
+    bottom: 2px;
+}
+
+.ImgDel {
+    box-shadow: 0 0 5px coral;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: #ce9481;
+    text-align: center;
+    border-radius: 50px;
+    transition-duration: 1s;
+    position: relative;
+    float: right;
+    left: 40px;
+    top: 2px;
+    outline: none;
+    border: none;
+}
+
+.ImgChange {
+    /*box-shadow: 0 0 3px 1px #94e5ad;*/
+    /*font-size: 10px;*/
+    width: 30px;
+    height: 30px;
+    /*background-color: #81cec2;*/
+    text-align: center;
+    border-radius: 50px;
+    transition-duration: 1s;
+    position: relative;
+    float: right;
+    left: 110px;
+    top: 2px;
+    outline: none;
+    border: none;
+}
+
+.ImgChange:hover {
+    transition-duration: 500ms;
+    border-radius: 50px;
+    transform: rotate(45deg);
+}
+
+.ImgDel:hover {
+    transition-duration: 500ms;
+    border-radius: 50px;
+    transform: rotate(180deg);
+}
+
+.SpisokFilm li b {
+    position: relative;
+    top: 5px;
+}
+
+.TitleFilmLi {
+    position: relative;
+    float: left;
+    left: 20px;
+}
+
+.TitleGenreLi {
+    position: relative;
+    float: right;
+    right: 100px;
+}
+
+.TitleGenreLi b {
+    left: 25px;
+}
+
+.SpisokFilm .TitleGenreLi {
+    width: 160px;
+    text-align: center;
+}
+
+.SpisokFilm .TitleFilmLi {
+    width: 465px;
+}
+
+.ChangeMenu {
+    border-radius: 5px;
+    box-shadow: 0 0 7px;
+    background-color: gray;
+    width: 760px;
+    height: 100px;
+    max-width: 800px;
+    padding: 20px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    top: 20px;
+
+}
+
+.InpChangeGenre, .InpChangeTitleFilm {
+    border-style: none;
+    /*text-decoration: none;*/
+    outline: none;
+    position: relative;
+    top: 35px;
+    padding-left: 10px;
+    font-size: 15px;
+    font-family: Menlo;
+    border-radius: 5px;
+}
+
+.InpChangeTitleFilm {
+    width: 360px;
+    height: 25px;
+}
+
+.InpChangeGenre {
+    width: 120px;
+    height: 27px;
+}
+
+.btnChange {
+    position: relative;
+    top: 50px;
+    height: 25px;
+    width: 500px;
+    font-family: Menlo;
+    font-size: 15px;
+    background-color: darkseagreen;
+    color: whitesmoke;
+    border: 1px solid black;
+    box-shadow: 0 0 3px black;
+}
+
